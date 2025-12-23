@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio | Kouassi Rémi GNAMIEN</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+	<link href="https://viglino.github.io/font-gis/css/font-gis.css" rel="stylesheet" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar navbar-expand-lg fixed-top navbar-light bg-white shadow-sm">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#">
+            <i class="fas fa-globe text-primary me-2"></i>MON PORTFOLIO
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Accueil</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">À propos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Compétences</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projets</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- ================= HERO ================= -->
+<section id="home" class="hero d-flex align-items-center">
+    <div class="hero-overlay"></div>
+    <div class="container text-center position-relative">
+        <img src="images/photo.jpg" class="profile-img mb-4" alt="Profil">
+        <h1 class="fw-bold display-5">Kouassi Rémi GNAMIEN</h1>
+        <p class="lead mb-4">
+            Géomaticien
+        </p>
+        <a href="#projects" class="btn btn-light btn-lg shadow">
+            <i class="fas fa-diagram-project me-2"></i>Découvrir mes projets
+        </a>
+    </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section id="about" class="section bg-light">
+    <div class="container">
+        <h2 class="section-title">À propos de moi</h2>
+
+        <div class="row align-items-center">
+            <div class="col-lg-6 mb-3">
+                <img src="images/unsplash-1.jpg"
+                     class="img-fluid rounded-4 shadow"
+                     alt="Géomatique">
+            </div>
+            <div class="col-lg-6">
+                <p class="fs-5">
+                    Géomaticien avec plus de 4 ans d’expérience dans
+                    les Systèmes d’Information Géographique (SIG),
+                    le WebSIG, la Data Science et l’Intelligence Artificielle.
+                </p>
+                <p>
+                    J’accompagne les organisations dans la conception de
+                    solutions géospatiales intelligentes,
+                    l’analyse spatiale avancée, l’automatisation des traitements
+                    et le développement d’applications décisionnelles performantes.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ================= SKILLS ================= -->
+<section id="skills" class="section">
+    <div class="container">
+        <h2 class="section-title">Compétences clés</h2>
+
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="skill-card">
+                    <i class="fas fa-map-location-dot"></i>
+                    <h5>WebSIG & SIG</h5>
+                    <p>Leaflet, OpenLayers, GeoServer, QGIS, ArcGIS, PostGIS, MapProxy</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="skill-card">
+                    <i class="fas fa-code"></i>
+                    <h5>Développement</h5>
+                    <p>HTML, CSS (Bootstrap, Tailwind), JavaScript (Angular),
+                        Python (Django, Flask), PHP (Laravel),
+                        Java (Spring Boot), C, C++, C#, .NET, Shell
+					</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="skill-card">
+                    <i class="fas fa-database"></i>
+                    <h5>Bases de données</h5>
+                    <p>PostgreSQL/PostGIS, MySQL, Oracle, MongoDB</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="skill-card">
+                    <i class="fas fa-server"></i>
+                    <h5>DevOps & Cloud</h5>
+                    <p>Docker, Kubernetes, Git, CI/CD, AWS</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="skill-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h5>Data & IA</h5>
+                    <p>Machine Learning, Deep Learning, Computer Vision, YOLO, OpenCV</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="skill-card">
+                    <i class="fas fa-shield-halved"></i>
+                    <h5>Cybersécurité</h5>
+                    <p>OAuth2, OpenID, Keycloak, sécurisation des systèmes</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<section id="projects" class="section bg-light">
+    <div class="container">
+        <h2 class="section-title">Projets récents</h2>
+
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="card project-card">
+                    <img src="images/map.png" alt="">
+                    <div class="card-body">
+                        <h5 class="text-primary"><i class="fg-earth me-2"></i>SPAX GeoHub: Plateforme SaaS</h5>
+                        <p>Tracking GPS • Impression cartographique • Digitalisation </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card project-card">
+                    <img src="images/map-i.png" alt="">
+                    <div class="card-body">
+                        <h5 class="text-primary"><i class="fg-earth me-2"></i>Plateforme de suivi des centres de santé par district </h5>
+                        <p>Analyse spatiale • Indicateurs sanitaires • Aide à la décision</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card project-card">
+                    <img src="images/gps.jpg" alt="">
+                    <div class="card-body">
+                        <h5 class="text-primary"><i class="fg-earth me-2"></i>Système de tracking GPS Temps Réel</h5>
+                        <p>Visualisation linéaire des trajets • traçabilité • Aide à la décision</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section id="contact" class="contact-section text-center">
+    <div class="container">
+        <h2 class="section-title text-white">Contact</h2>
+        <p class="text-white fs-5">
+            <i class="fas fa-envelope me-2"></i>
+            kouassiremi27@gmail.com
+        </p>
+
+        <div class="social-icons mt-4">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+        </div>
+    </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
